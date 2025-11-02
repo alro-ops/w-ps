@@ -250,9 +250,9 @@ async function sendConfirmation(code, guests, name, modal, showStep, stepSuccess
 
         // ✅ Abrir WhatsApp inmediatamente (antes del fetch)
         const msg = encodeURIComponent(
-            `Hola Maraitzi & Ángel, soy ${name}, confirmo la asistencia de ${guests} persona${guests > 1 ? "s" : ""} 💍`
+            `Hola Paty & Saúl, soy ${name}, confirmo la asistencia de ${guests} persona${guests > 1 ? "s" : ""} 💍`
         );
-        window.open(`https://wa.me/?text=${msg}`, "_blank");
+        window.open(`https://wa.me/5561522394?text=${msg}`, "_blank");
 
         // Luego enviar la confirmación al backend
         const res = await fetch(
@@ -332,13 +332,13 @@ function downloadICS(type) {
     let title, location, start, end, description;
 
     if (type === "ceremonia") {
-        title = "Ceremonia Religiosa - Boda de Maraitzi & Ángel 💒";
+        title = "Ceremonia Religiosa - Boda de Paty & Saúl 💒";
         location = "Iglesia del Señor del Perdón, Santa Cruz, Teoloyucan, México";
         start = "20260131T184500Z"; // 12:45 hora CDMX = 18:45 UTC
         end = "20260131T203000Z";
-        description = "Ceremonia religiosa de Maraitzi & Ángel 💍";
+        description = "Ceremonia religiosa de Paty & Saúl 💍";
     } else if (type === "recepcion") {
-        title = "Recepción - Boda de Maraitzi & Ángel 🥂";
+        title = "Recepción - Boda de Paty & Saúl 🥂";
         location = "Salón de Eventos Granja María Elena, Santiago, Teoloyucan, México";
         start = "20260131T210000Z"; // 14:00 hora CDMX = 20:00 UTC
         end = "20260201T050000Z";   // hasta 8 p.m. aprox
@@ -350,9 +350,9 @@ function downloadICS(type) {
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
         "CALSCALE:GREGORIAN",
-        "PRODID:-//Maraitzi&Angel//Boda//ES",
+        "PRODID:-//Paty&Saul//Boda//ES",
         "BEGIN:VEVENT",
-        `UID:${type}@boda-maraitzi-angel.com`,
+        `UID:${type}@boda-paty-saul.com`,
         `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, "").split(".")[0]}Z`,
         `DTSTART:${start}`,
         `DTEND:${end}`,
@@ -366,7 +366,7 @@ function downloadICS(type) {
     const blob = new Blob([icsContent], { type: "text/calendar;charset=utf-8" });
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
-    link.download = `Boda-Maraitzi-Angel-${type}.ics`;
+    link.download = `Boda-Paty-Saul-${type}.ics`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
