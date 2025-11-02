@@ -252,7 +252,7 @@ async function sendConfirmation(code, guests, name, modal, showStep, stepSuccess
         const msg = encodeURIComponent(
             `Hola Paty & Saúl, soy ${name}, confirmo la asistencia de ${guests} persona${guests > 1 ? "s" : ""} 💍`
         );
-        window.open(`https://wa.me/5561522394?text=${msg}`, "_blank");
+        window.open(`https://wa.me/9223170000?text=${msg}`, "_blank");
 
         // Luego enviar la confirmación al backend
         const res = await fetch(
