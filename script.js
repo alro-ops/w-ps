@@ -52,7 +52,7 @@
     const container = document.querySelector('.carousel-polaroid');
     if (!container) return;
 
-    const imageFiles = ['1.jpeg', '2.jpeg', '3.jpeg'];
+    const imageFiles = ['1.jpg', '2ps.jpeg', '3ps.jpeg'];
     const images = [];
 
     imageFiles.forEach((file, index) => {
