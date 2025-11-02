@@ -213,7 +213,7 @@ p,
     width: 280px;
     height: 190px;
     background: #f3fef8;
-    border: 2px solid #a4d9bf;
+    border: 2px solid #c7bda4;
     border-radius: 6px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2),
         inset 0 2px 4px rgba(255, 255, 255, 0.6);
@@ -433,9 +433,9 @@ main {
 }
 
 .special-celebration {
-    background: #f5fff5;
-    border-top: 2px solid #a4d9bf;
-    border-bottom: 2px solid #a4d9bf;
+    background: #e4dfd3;
+    border-top: 2px solid #c7bda4;
+    border-bottom: 2px solid #c7bda4;
     padding: 3rem 1.5rem;
     text-align: center;
     color: #3b2c23;
@@ -523,8 +523,8 @@ main {
 }
 
 .location-block {
-    background: #f5fff5;
-    border: 2px solid #a4d9bf;
+    background: #e4dfd3;
+    border: 2px solid #c7bda4;
     border-radius: 12px;
     padding: 1.5rem;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
@@ -767,8 +767,8 @@ main {
 
 /* === TARJETA DE INVITADO / BOLETOS === */
 .ticket-card {
-    background: #f5fff5;
-    border: 2px solid #a4d9bf;
+    background: #e4dfd3;
+    border: 2px solid #c7bda4;
     border-radius: 14px;
     padding: 2rem 1.5rem;
     margin: 2rem auto;
@@ -823,9 +823,9 @@ main {
 }
 
 .hotels {
-    background: #f5fff5;
-    border-top: 2px solid #a4d9bf;
-    border-bottom: 2px solid #a4d9bf;
+    background: #e4dfd3;
+    border-top: 2px solid #c7bda4;
+    border-bottom: 2px solid #c7bda4;
     padding: 3rem 1.5rem;
     text-align: center;
     color: #3b2c23;
