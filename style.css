@@ -517,14 +517,14 @@ main {
 
 /* Location sections */
 .locations {
-    background-color: #f5fff5;
+    background-color: #ffffff;
     text-align: center;
     padding: 2rem 1rem;
 }
 
 .location-block {
-    background: #fffaf5;
-    border: 2px solid #f1df9b;
+    background: #f5fff5;
+    border: 2px solid #a4d9bf;
     border-radius: 12px;
     padding: 1.5rem;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
@@ -788,7 +788,7 @@ main {
     right: -60px;
     width: 160px;
     height: 160px;
-    background: radial-gradient(circle, rgba(241, 223, 155, 0.4) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(128,202,166, 0.4) 0%, transparent 70%);
     z-index: 0;
 }
 
