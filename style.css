@@ -788,7 +788,7 @@ main {
     right: -60px;
     width: 160px;
     height: 160px;
-    background: radial-gradient(circle, rgba(128,202,166, 0.4) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(189, 178, 148, 0.4) 0%, transparent 70%);
     z-index: 0;
 }
 
